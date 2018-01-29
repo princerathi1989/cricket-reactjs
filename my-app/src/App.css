@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.name-form {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 15px;
+}
+
+.name-form h3 {
+  margin: 0;
+}
+
+.name-form input, .name-form select {
+  display: block;
+  margin: 10px auto 0;
+  padding: 6px;
+}
+
+.name-form input[type=submit]{
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  color: #222;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+.players-list-wrapper .players-list ul {
+  float: left;
+  padding: 0;
+  width: 100%;
+}
+
+.players-list-wrapper .players-list li {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-sizing: border-box;
+  float: left;
+  height: 125px;
+  line-height: 40px;
+  list-style:  none;
+  margin: 10px 1%;
+  padding: 10px 20px;
+  text-align: left;
+  width: 31%;
+}
+
+.players-list-wrapper .players-list li.included {
+  background-color: #05469e;
+  box-shadow: 0 0 8px 2px #05469e;
+  color: #fff;
+} 
+
+.players-list-wrapper .players-list li button {
+  background-color: #fff;
+  border: 1px solid #05469e;
+  border-radius: 2px;
+  color: #05469e;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+.players-list-wrapper .players-list li.included button {
+  border: none;
+}
+
+.players-list {    
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+.player-info {
+  float: left;
+  width: 70%;
+}
+
+.player-name {
+  color: #05469e;
+  font-weight: bold;
+}
+
+.players-list-wrapper .players-list li.included .player-name {  
+  color: #fff;
+}
+
+.player-role {
+  font-size: 13px;
+  line-height: 2;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  margin: 0;
+}
+
+figure img {
+  border-radius: 4px;
+  height: auto;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
